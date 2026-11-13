@@ -72,6 +72,9 @@ unknown predictor, which this service does not do.
 
 ## Validation
 
+- **The authors' own code** (`app.R`): its equations evaluated without the
+  final rounding, for 14 cases (`data-raw/author_fixtures.R`). All 84 risks
+  agree to 10⁻¹².
 - **The authors' live calculator** (13 November 2026): its defaults and 10
   more cases, covering all inputs and risks from 1% to 100%. All 66 figures
   are identical at its whole-percent precision.

@@ -79,3 +79,17 @@ test_that("gateway returns full precision", {
   r <- do.call(recode_risk, get_default_input())
   expect_equal(g$risk$ascvd, r$risk$ascvd, tolerance = 1e-13)
 })
+
+test_that("results equal the authors' own code at full precision (14 cases)", {
+  # data-raw/author_fixtures.R evaluates the server expressions of the authors'
+  # app.R (commit 63135bd8) with round() replaced by identity, giving unrounded
+  # percentages. Inputs use app.R's names and 0/1 codes.
+  fx <- jsonlite::read_json(test_path("author_code_cases.json"))
+  for (f in fx) {
+    v <- unlist(f$inputs)[c("age", "sex", "black", "hisp", "sysbp", "bprx", "cursmoke", "cvdhist",
+                            "oralrx", "statin", "anticoag", "hgba1c", "totchol", "hdlchol",
+                            "sercreat", "uralbcreat")]
+    expect_equal(unname(100 * unlist(from_codes(v)$risk)), unname(unlist(f$percent)),
+                 tolerance = 1e-12, info = paste(v, collapse = " "))
+  }
+})

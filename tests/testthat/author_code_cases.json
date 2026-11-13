@@ -1,0 +1,394 @@
+[
+  {
+    "inputs": {
+      "age": 60,
+      "sex": 0,
+      "black": 0,
+      "hisp": 0,
+      "sysbp": 140,
+      "bprx": 0,
+      "cursmoke": 0,
+      "cvdhist": 0,
+      "oralrx": 0,
+      "statin": 0,
+      "anticoag": 0,
+      "hgba1c": 8,
+      "totchol": 190,
+      "hdlchol": 50,
+      "sercreat": 1.1,
+      "uralbcreat": 10
+    },
+    "percent": {
+      "neph_beta": 8.54540682832405,
+      "retin_beta": 8.92737664402814,
+      "neuro_beta": 13.3138374274066,
+      "mi_beta": 18.2686786797017,
+      "chf_beta": 2.7678650710637,
+      "death_beta": 9.07949199672469
+    }
+  },
+  {
+    "inputs": {
+      "age": 68,
+      "sex": 1,
+      "black": 1,
+      "hisp": 0,
+      "sysbp": 155,
+      "bprx": 1,
+      "cursmoke": 1,
+      "cvdhist": 1,
+      "oralrx": 1,
+      "statin": 1,
+      "anticoag": 0,
+      "hgba1c": 9.2,
+      "totchol": 210,
+      "hdlchol": 42,
+      "sercreat": 1.4,
+      "uralbcreat": 120
+    },
+    "percent": {
+      "neph_beta": 9.42111623119839,
+      "retin_beta": 16.6156445536111,
+      "neuro_beta": 25.3185617212769,
+      "mi_beta": 56.5662842053542,
+      "chf_beta": 46.9844130892421,
+      "death_beta": 38.4409199728892
+    }
+  },
+  {
+    "inputs": {
+      "age": 45,
+      "sex": 0,
+      "black": 0,
+      "hisp": 1,
+      "sysbp": 120,
+      "bprx": 0,
+      "cursmoke": 0,
+      "cvdhist": 0,
+      "oralrx": 1,
+      "statin": 0,
+      "anticoag": 0,
+      "hgba1c": 7.1,
+      "totchol": 170,
+      "hdlchol": 55,
+      "sercreat": 0.8,
+      "uralbcreat": 5
+    },
+    "percent": {
+      "neph_beta": 8.61781679319075,
+      "retin_beta": 3.21380407864532,
+      "neuro_beta": 4.11500348087305,
+      "mi_beta": 8.01306422899267,
+      "chf_beta": 0.752955073923145,
+      "death_beta": 2.80458329449209
+    }
+  },
+  {
+    "inputs": {
+      "age": 75,
+      "sex": 0,
+      "black": 0,
+      "hisp": 0,
+      "sysbp": 170,
+      "bprx": 1,
+      "cursmoke": 0,
+      "cvdhist": 1,
+      "oralrx": 1,
+      "statin": 1,
+      "anticoag": 1,
+      "hgba1c": 10.5,
+      "totchol": 240,
+      "hdlchol": 35,
+      "sercreat": 2.1,
+      "uralbcreat": 600
+    },
+    "percent": {
+      "neph_beta": 19.2342541509571,
+      "retin_beta": 37.547833741482,
+      "neuro_beta": 66.9462807114024,
+      "mi_beta": 96.9563742821748,
+      "chf_beta": 97.4794005895758,
+      "death_beta": 77.437133297188
+    }
+  },
+  {
+    "inputs": {
+      "age": 55,
+      "sex": 1,
+      "black": 0,
+      "hisp": 1,
+      "sysbp": 130,
+      "bprx": 1,
+      "cursmoke": 1,
+      "cvdhist": 0,
+      "oralrx": 0,
+      "statin": 1,
+      "anticoag": 0,
+      "hgba1c": 8.4,
+      "totchol": 200,
+      "hdlchol": 60,
+      "sercreat": 0.7,
+      "uralbcreat": 25
+    },
+    "percent": {
+      "neph_beta": 9.63145750364643,
+      "retin_beta": 8.34646481091735,
+      "neuro_beta": 9.13354592765382,
+      "mi_beta": 13.4905696376239,
+      "chf_beta": 3.94791940782317,
+      "death_beta": 7.32846089743601
+    }
+  },
+  {
+    "inputs": {
+      "age": 62,
+      "sex": 0,
+      "black": 1,
+      "hisp": 0,
+      "sysbp": 145,
+      "bprx": 1,
+      "cursmoke": 0,
+      "cvdhist": 0,
+      "oralrx": 1,
+      "statin": 0,
+      "anticoag": 1,
+      "hgba1c": 11,
+      "totchol": 185,
+      "hdlchol": 38,
+      "sercreat": 1.6,
+      "uralbcreat": 300
+    },
+    "percent": {
+      "neph_beta": 14.9008619842144,
+      "retin_beta": 14.6041825465483,
+      "neuro_beta": 28.0623864314701,
+      "mi_beta": 48.0729515116955,
+      "chf_beta": 37.3605145122031,
+      "death_beta": 32.9253730181953
+    }
+  },
+  {
+    "inputs": {
+      "age": 79,
+      "sex": 1,
+      "black": 0,
+      "hisp": 0,
+      "sysbp": 135,
+      "bprx": 1,
+      "cursmoke": 0,
+      "cvdhist": 1,
+      "oralrx": 0,
+      "statin": 1,
+      "anticoag": 0,
+      "hgba1c": 6.8,
+      "totchol": 160,
+      "hdlchol": 65,
+      "sercreat": 1,
+      "uralbcreat": 15
+    },
+    "percent": {
+      "neph_beta": 4.70657991540838,
+      "retin_beta": 16.2565794214838,
+      "neuro_beta": 18.8528853160404,
+      "mi_beta": 37.6759145569998,
+      "chf_beta": 22.8157178540463,
+      "death_beta": 28.8350950590911
+    }
+  },
+  {
+    "inputs": {
+      "age": 40,
+      "sex": 0,
+      "black": 0,
+      "hisp": 0,
+      "sysbp": 118,
+      "bprx": 0,
+      "cursmoke": 1,
+      "cvdhist": 0,
+      "oralrx": 1,
+      "statin": 0,
+      "anticoag": 0,
+      "hgba1c": 12,
+      "totchol": 260,
+      "hdlchol": 30,
+      "sercreat": 0.9,
+      "uralbcreat": 40
+    },
+    "percent": {
+      "neph_beta": 14.0355018453626,
+      "retin_beta": 5.26708815973889,
+      "neuro_beta": 12.500560067628,
+      "mi_beta": 25.4779763217045,
+      "chf_beta": 3.21363391013888,
+      "death_beta": 8.17022110275209
+    }
+  },
+  {
+    "inputs": {
+      "age": 70,
+      "sex": 1,
+      "black": 1,
+      "hisp": 0,
+      "sysbp": 165,
+      "bprx": 1,
+      "cursmoke": 1,
+      "cvdhist": 1,
+      "oralrx": 1,
+      "statin": 0,
+      "anticoag": 1,
+      "hgba1c": 8,
+      "totchol": 190,
+      "hdlchol": 45,
+      "sercreat": 2.8,
+      "uralbcreat": 1500
+    },
+    "percent": {
+      "neph_beta": 38.8780001336208,
+      "retin_beta": 46.0047066986431,
+      "neuro_beta": 43.344702823988,
+      "mi_beta": 92.9093792686434,
+      "chf_beta": 99.9184141162209,
+      "death_beta": 91.445414829244
+    }
+  },
+  {
+    "inputs": {
+      "age": 58,
+      "sex": 0,
+      "black": 0,
+      "hisp": 1,
+      "sysbp": 138,
+      "bprx": 0,
+      "cursmoke": 0,
+      "cvdhist": 1,
+      "oralrx": 1,
+      "statin": 1,
+      "anticoag": 0,
+      "hgba1c": 7.6,
+      "totchol": 175,
+      "hdlchol": 48,
+      "sercreat": 1.2,
+      "uralbcreat": 60
+    },
+    "percent": {
+      "neph_beta": 10.0734849635609,
+      "retin_beta": 7.57683192096671,
+      "neuro_beta": 12.1567463867376,
+      "mi_beta": 32.1989562200312,
+      "chf_beta": 6.3956573942867,
+      "death_beta": 11.0236777431361
+    }
+  },
+  {
+    "inputs": {
+      "age": 66,
+      "sex": 1,
+      "black": 0,
+      "hisp": 0,
+      "sysbp": 150,
+      "bprx": 1,
+      "cursmoke": 0,
+      "cvdhist": 0,
+      "oralrx": 1,
+      "statin": 1,
+      "anticoag": 0,
+      "hgba1c": 9.8,
+      "totchol": 220,
+      "hdlchol": 52,
+      "sercreat": 1.1,
+      "uralbcreat": 8
+    },
+    "percent": {
+      "neph_beta": 7.93443229132871,
+      "retin_beta": 14.8442970968697,
+      "neuro_beta": 18.5007031486369,
+      "mi_beta": 26.2193147992748,
+      "chf_beta": 10.7828146519134,
+      "death_beta": 12.053011203616
+    }
+  },
+  {
+    "inputs": {
+      "age": 50,
+      "sex": 1,
+      "black": 1,
+      "hisp": 1,
+      "sysbp": 125,
+      "bprx": 0,
+      "cursmoke": 0,
+      "cvdhist": 0,
+      "oralrx": 1,
+      "statin": 1,
+      "anticoag": 0,
+      "hgba1c": 7.5,
+      "totchol": 180,
+      "hdlchol": 55,
+      "sercreat": 0.9,
+      "uralbcreat": 12
+    },
+    "percent": {
+      "neph_beta": 8.2236356351655,
+      "retin_beta": 4.49181816421562,
+      "neuro_beta": 4.32302994520877,
+      "mi_beta": 7.90407251840854,
+      "chf_beta": 1.25116191971808,
+      "death_beta": 2.7251294353233
+    }
+  },
+  {
+    "inputs": {
+      "age": 72,
+      "sex": 0,
+      "black": 0,
+      "hisp": 0,
+      "sysbp": 180,
+      "bprx": 1,
+      "cursmoke": 1,
+      "cvdhist": 1,
+      "oralrx": 0,
+      "statin": 0,
+      "anticoag": 0,
+      "hgba1c": 9,
+      "totchol": 230,
+      "hdlchol": 40,
+      "sercreat": 1.8,
+      "uralbcreat": 250
+    },
+    "percent": {
+      "neph_beta": 15.7930424727096,
+      "retin_beta": 31.5193490257476,
+      "neuro_beta": 55.9359679533235,
+      "mi_beta": 81.2464628947218,
+      "chf_beta": 65.0218619989766,
+      "death_beta": 65.6440276605899
+    }
+  },
+  {
+    "inputs": {
+      "age": 48,
+      "sex": 1,
+      "black": 0,
+      "hisp": 0,
+      "sysbp": 110,
+      "bprx": 0,
+      "cursmoke": 0,
+      "cvdhist": 0,
+      "oralrx": 0,
+      "statin": 0,
+      "anticoag": 1,
+      "hgba1c": 6.5,
+      "totchol": 150,
+      "hdlchol": 70,
+      "sercreat": 0.6,
+      "uralbcreat": 3
+    },
+    "percent": {
+      "neph_beta": 6.36881239903681,
+      "retin_beta": 4.33992200182086,
+      "neuro_beta": 3.2422158617858,
+      "mi_beta": 6.8187381578126,
+      "chf_beta": 1.37877402832056,
+      "death_beta": 3.63170887638758
+    }
+  }
+]
