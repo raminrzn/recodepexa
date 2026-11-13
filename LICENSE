@@ -1,0 +1,16 @@
+recodepexa is distributed under the Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International licence (CC BY-NC-SA 4.0):
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The RECODe equations come from Sanjay Basu's repository
+https://github.com/sanjaybasu/t2dmriskeqns (commit 63135bd8). That repository's
+README states that the work is licensed under CC BY-NC-SA 4.0, and its LICENSE
+file (added in 2020) is the MIT licence, Copyright (c) 2020 Sanjay Basu. This
+package uses the more restrictive terms, which satisfy both: attribution to
+the authors, non-commercial use only, and the same licence for adaptations.
+The MIT notice is kept in inst/LICENSE-t2dmriskeqns-MIT.
+
+Basu S, Sussman JB, Berkowitz SA, Hayward RA, Yudkin JS. Development and
+validation of Risk Equations for Complications Of type 2 Diabetes (RECODe)
+using individual participant data from randomised trials. Lancet Diabetes
+Endocrinol 2017; 5: 788-98.
